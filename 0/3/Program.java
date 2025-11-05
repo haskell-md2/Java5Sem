@@ -8,8 +8,9 @@ public class Program{
         try {
 
             Scanner in = new Scanner(System.in);
-            System.out.println("Введи имя:");
+            System.out.println("Введите имя:");
             System.out.println("Привет, " +in.nextLine() + ".");
+            in.close();
 
         } catch (Exception e) {
             System.out.println("Что-то пошло не так!");

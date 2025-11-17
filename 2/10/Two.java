@@ -33,7 +33,6 @@ public class Two{
         List<Object> objList = new ArrayList<>();
         addIntegers(objList); // Можно передать List<Object>
 
-        Object obj = null;
         for (Object o : objList) {
             System.out.println(o);
         }
